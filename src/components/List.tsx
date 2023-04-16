@@ -2,7 +2,7 @@ import React from 'react';
 import ListStyles from '../styles/modules/List.module.css';
 
 
-export default function List({ children }){
+export default function List({ children }:string){
     console.log(children);
     return (
         <>
@@ -13,7 +13,7 @@ export default function List({ children }){
     )
 }
 
-export function ListItem({ image, header, text }){
+export function ListItem({ image, header, text }:string){
     return(
         <>
             <div className='about-persona'>
