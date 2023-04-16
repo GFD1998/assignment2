@@ -9,7 +9,7 @@ export default function List({ children }:any){
             <div id={ListStyles.aboutContainer}>
                 {children}
             </div>
-        </>
+        </> 
     )
 }
 
