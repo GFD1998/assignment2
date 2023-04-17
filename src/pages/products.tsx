@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Link from 'next/link';
 import List, { ListItem } from '../components/List';
-import { products } from '../pages/products/_productsData';
+import { products } from '../data/products/_productsData';
 
 const inter = Inter({ subsets: ['latin'] })
 
