@@ -9,7 +9,7 @@ export default function Products() {
     return(
         <>
             <List>
-                <ListItem image='/images/rose-gold-soap.jpg' header={<Link href='/products-rose-gold-soap'>Rose-Gold Soap:</Link>} text='Curabitur tellus erat, commodo at dapibus ac, tempus quis justo. Suspendisse tempor arcu risus, at euismod nisi ullamcorper id. Sed eros quam, elementum at consequat sit amet, fringilla sed metus. Sed laoreet fermentum augue. Quisque viverra magna vitae vehicula sodales. Mauris scelerisque pellentesque maximus. Praesent sed augue luctus, sollicitudin tortor at, aliquam ex. Nunc ac eros tristique, lacinia urna ac, eleifend massa.' />
+                <ListItem image='/images/rose-gold-soap.jpg' header='Rose-Gold Soap' text='Curabitur tellus erat, commodo at dapibus ac, tempus quis justo. Suspendisse tempor arcu risus, at euismod nisi ullamcorper id. Sed eros quam, elementum at consequat sit amet, fringilla sed metus. Sed laoreet fermentum augue. Quisque viverra magna vitae vehicula sodales. Mauris scelerisque pellentesque maximus. Praesent sed augue luctus, sollicitudin tortor at, aliquam ex. Nunc ac eros tristique, lacinia urna ac, eleifend massa.' link='#' />
             </List>
         </>
         // <div id='about-container'>

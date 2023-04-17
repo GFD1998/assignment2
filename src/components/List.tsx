@@ -1,5 +1,6 @@
 import React from 'react';
 import ListStyles from '../styles/modules/List.module.css';
+import Link from 'next/link';
 
 
 export default function List({ children }:any){
@@ -13,7 +14,7 @@ export default function List({ children }:any){
     )
 }
 
-export function ListItem({ image, header, text }:any){
+export function ListItem({ image, header, text, link }:any){
     return(
         <>
             <div className='about-persona'>
@@ -21,7 +22,7 @@ export function ListItem({ image, header, text }:any){
                     <img src={image} />
                 </div>
                 <div className='about-text'>
-                    <h1>{header}</h1>
+                    <h1><Link href={link}>{header}</Link>:</h1>
                     <p>
                         {text}
                     </p>

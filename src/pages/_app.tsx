@@ -17,6 +17,7 @@ import '/src/styles/footer.css';
 
 import type { AppProps } from 'next/app'
 import Link from 'next/link';
+import Modal from '../components/Modal';
 
 console.log('Generating nav bar here.');
 export default function App({ Component, pageProps }: AppProps) {
@@ -44,9 +45,9 @@ export default function App({ Component, pageProps }: AppProps) {
         <p>
           &copy; The Soap Factory
         </p>
-        <Link href='/t-c'>
-          Terms and Conditions
-        </Link>
+        <Modal trigger='Terms and Conditions'>
+          List of terms and conditions.
+        </Modal>
       </footer>
     </>
   )
