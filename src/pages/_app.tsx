@@ -42,9 +42,14 @@ export default function App({ Component, pageProps }: AppProps) {
       </header>
       <Component {...pageProps} />
       <footer>
-        <p>
+        {/* <p>
           &copy; The Soap Factory
-        </p>
+        </p> */}
+        <Modal trigger='&copy; The Soap Factory'>
+          Copyright of The Soap Factory<br />
+          Trademark of The Soap Factory
+
+        </Modal>
         <Modal trigger='Terms and Conditions'>
           List of terms and conditions.
         </Modal>
