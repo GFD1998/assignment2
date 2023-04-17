@@ -10,7 +10,7 @@ export default function About() {
 
     const personnelList = personnel.map(personnel => {
         return (
-            <ListItem header={personnel.name} image={personnel.image} text={personnel.description} link='#'></ListItem>
+            <ListItem header={personnel.name} image={personnel.image} text={personnel.description} link='#' key={personnel.id}></ListItem>
         );
     });
     return(

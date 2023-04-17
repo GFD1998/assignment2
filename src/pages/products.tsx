@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Products() {
     const soapList = products.map(product => {
         return (
-            <ListItem header={product.name} image={product.image} text={product.description} link={product.link}></ListItem>
+            <ListItem header={product.name} image={product.image} text={product.description} link={product.link} key={product.id}></ListItem>
         );
     });
     return(
